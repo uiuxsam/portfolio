@@ -1,0 +1,26 @@
+.portfolio_div{
+    background-color: rgb(26, 22, 22);
+}
+.portfolio_des{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height:25px;
+    /* color:darkgray */
+}
+
+@media (max-width:640px) {
+    .portfolio_des{
+        text-align: justify;
+    }
+}
+.md-pills .nav-link.active {
+    color: #fff;
+    background-color: darkcyan;
+  }
+  button.close {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    padding-right: 1rem;
+    padding-top: .6rem;
+  }

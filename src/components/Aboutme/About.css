@@ -1,0 +1,44 @@
+.about_main_div{
+  background-color: rgb(26, 22, 22);
+}
+.about_txt {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  .about_heading_txt{
+    font-family:Montserrat, "Montserrat", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0px;
+  }
+  .name_span{
+    color:cadetblue;
+    font-weight: bold;
+  }
+  .about_description{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height:25px;
+    
+  }
+  .about_img{
+    height:400px;
+}
+  @media (max-width:740px) {
+    .about_img{
+        width:350px;
+        height:270px;
+    }
+    .same_txt{
+        margin-top: 60px;
+    }
+  }
+  @media (max-width:740px) {
+    .sami_txt{
+        display: inline-block;
+        padding-top: 20px;
+    }
+  }
+
+
+  

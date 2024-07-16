@@ -1,0 +1,19 @@
+.service_div{
+    background-color: rgb(26, 22, 22);
+}
+.services_des{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height:25px;
+    /* color:darkgray */
+}
+
+.card_heading{
+    font-weight: bold;
+    font-family:Montserrat, "Montserrat", sans-serif;
+}
+@media (max-width:640px) {
+    .services_des{
+        text-align: justify;
+    }
+}
